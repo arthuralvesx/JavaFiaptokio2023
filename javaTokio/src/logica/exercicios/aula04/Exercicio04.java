@@ -1,8 +1,8 @@
-package logica.aulas;
+package logica.exercicios.aula04;
 
 import java.util.Scanner;
 
-public class SegundoPrograma {
+public class Exercicio04 {
 
 	public static void main(String[] args) {
 		
@@ -11,12 +11,15 @@ public class SegundoPrograma {
 		System.out.println("Digite seu nome: ");
 		String nome = entrada.nextLine();
 		
-		System.out.println("Digite sua Idade");
-		System.out.println("Sua Idade é: " + entrada.nextLine());
+		System.out.println("Digite sua idade: ");
+		int idade = entrada.nextInt();
 		
-		System.out.println("Bem-vindo, " + nome);
+		System.out.println("Olá, " +nome+ ". Você tem " +idade+ " anos.");
 		
 		entrada.close();
-	
+		
+		
+
 	}
+
 }
