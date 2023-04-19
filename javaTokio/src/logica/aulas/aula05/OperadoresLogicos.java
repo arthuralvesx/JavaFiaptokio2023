@@ -14,7 +14,7 @@ public class OperadoresLogicos {
 		System.out.println(logicaOU);
 		
 		boolean negacao = !true;
-		System.out.println("\n" +negacao);
+		System.out.println(negacao);
 		//OPERADORES DE STRINGS
 		
 		String nome1 = "Joana";
