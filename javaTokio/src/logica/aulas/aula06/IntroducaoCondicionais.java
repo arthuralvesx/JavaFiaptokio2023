@@ -21,7 +21,7 @@ public class IntroducaoCondicionais {
 		//ESTRUTURA CONDICIONAL COMPOSTA
 		//----------------------------------
 		/*
-		float notaFinal = 5.9f;
+		float notaFinal = 10;
 		if (notaFinal < 6) {
 			System.out.println("Reprovado");
 		}else {
@@ -44,6 +44,7 @@ public class IntroducaoCondicionais {
 			else {
 				System.out.println("Aprovado");
 			}
+			
 		}
 			
 
