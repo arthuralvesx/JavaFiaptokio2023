@@ -1,4 +1,4 @@
-package logica.exercicios.aula06;
+package logica.exercicios.aula05;
 
 import java.util.Scanner;
 
@@ -14,23 +14,23 @@ public class Exercicio08 {
 		double dolar = 5.06;
 		double euro = 5.55;
 		double pesoArgentino = 0.023;
-		double libraEsterlina = 6.29;
+		double libraEsterlina = 6.20239;
 		double iene = 0.038;
 		
 		double converteDolar = valorReal*dolar;
-		System.out.println();
+		System.out.printf("Valor em dolar:%.2f" , converteDolar);
 		
 		double converteEuro = valorReal*euro;
-		System.out.println();
+		System.out.printf("\nValor em euro:%.2f" , converteEuro);
 		
 		double convertePeso = valorReal*pesoArgentino;
-		System.out.println();
+		System.out.printf("\nValor em peso argentino:%.2f" , convertePeso);
 		
 		double converteLibraesterlina = valorReal*libraEsterlina;
-		System.out.println();
+		System.out.printf("\nValor em libra esterlina:%.2f" , converteLibraesterlina);
 		
-		double convertEiene = valorReal*iene;
-		System.out.println();
+		double converteEiene = valorReal*iene;
+		System.out.printf("\nValor em iene:%.2f" , converteEiene);
 		
 	}
 

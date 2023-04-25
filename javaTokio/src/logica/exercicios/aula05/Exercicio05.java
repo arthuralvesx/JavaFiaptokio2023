@@ -1,11 +1,10 @@
-package logica.exercicios.aula06;
+package logica.exercicios.aula05;
 
 import java.util.Scanner;
 
-public class Exercicio04 {
+public class Exercicio05 {
 
 	public static void main(String[] args) {
-		 
 		Scanner entrada = new Scanner(System.in);
 		
 		System.out.println("Digite o valor A");
@@ -14,13 +13,9 @@ public class Exercicio04 {
 		System.out.println("Digite o valor B");
 		Double B = entrada.nextDouble();
 		
-		System.out.println("Sua final é: " +(A + B)/2);
+		System.out.println("Sua final é: " +((A*4) + (B*6))/2);
 		
 		entrada.close();
-		
-		
-		 
-		 
 
 	}
 

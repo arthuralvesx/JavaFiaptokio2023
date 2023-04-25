@@ -2,7 +2,7 @@ package logica.aulas.aula07;
 
 import java.util.Scanner;
 
-public class WhilLaco {
+public class WhileLaco {
 
 	public static void main(String[] args) {
 		
@@ -42,7 +42,7 @@ public class WhilLaco {
 				break;
 			}
 			
-			System.out.println("Cambalhota" + i);
+			System.out.println("Cambalhota " + i);
 		}
 		System.out.println("Fim do programa!");
 
