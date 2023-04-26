@@ -8,19 +8,17 @@ public class Exercicio10desafio {
 
 		Scanner entrada = new Scanner(System.in);
 		
-		System.out.println("Digite o sua idade: ");
-		int idade = entrada.nextInt();
+		System.out.println("Digite quantos dia você já viveu: ");
+		int diasVividos = entrada.nextInt();
 		
-		System.out.println("Digite o mes em que você nasceu: ");
-		int meses = entrada.nextInt();
 		
-		System.out.println("Digite o dia em que você nasceu: ");
-		int dia = entrada.nextInt();
+		int anos = diasVividos / 365;
+		int mes = diasVividos / 30;
 		
-		int diasVivido = (idade * 365) + meses * 30 + dia;
 		
-		System.out.println("Você viveu " +diasVivido+ " dias");
+		System.out.printf("Você tem " +anos+ " anos de idade \n"+mes+ " meses de vida\n" +diasVividos+ " dias de vida.");
 		
+		entrada.close();
 	}
 
 }
