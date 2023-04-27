@@ -8,16 +8,16 @@ public class Exercicio09 {
 		
 		Scanner entrada = new Scanner(System.in);
 		
-		System.out.println("Digite um número, até 999: ");
+		System.out.println("Digite um número, até (0-999): ");
 		int num = entrada.nextInt();
 		
 		int centena = num/100;
 		int dezena = (num % 100)/10;
 		int unidade = num%10;
 		
-		System.out.println("Centena: " +centena * 100);
-		System.out.println("Dezena: " +dezena * 10);
-		System.out.println("Unidade: " +unidade);
+		System.out.println("Centena = " +centena * 100);
+		System.out.println("Dezena = " +dezena * 10);
+		System.out.println("Unidade = " +unidade);
 		
 		entrada.close();
 		

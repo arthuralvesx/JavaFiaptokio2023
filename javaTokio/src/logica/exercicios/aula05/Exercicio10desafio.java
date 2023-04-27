@@ -11,12 +11,12 @@ public class Exercicio10desafio {
 		System.out.println("Digite quantos dia você já viveu: ");
 		int diasVividos = entrada.nextInt();
 		
-		
 		int anos = diasVividos / 365;
-		int mes = diasVividos / 30;
+		int restoDias = diasVividos % 365;
+		int mes = restoDias / 30;
+		int dias = restoDias % 30;
 		
-		
-		System.out.printf("Você tem " +anos+ " anos de idade \n"+mes+ " meses de vida\n" +diasVividos+ " dias de vida.");
+		System.out.printf("Você tem " +anos+ " anos de idade \n"+mes+ " meses de vida\n" +dias+ " dias de vida");
 		
 		entrada.close();
 	}

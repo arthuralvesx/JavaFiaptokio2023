@@ -11,11 +11,11 @@ public class Exercicio08 {
 		System.out.println("Digite quantos reais você quer converter: ");
 		double valorReal = entrada.nextDouble();
 		
-		double dolar = 5.06;
-		double euro = 5.55;
-		double pesoArgentino = 0.023;
-		double libraEsterlina = 6.20239;
-		double iene = 0.038;
+		double dolar = 0.2;
+		double euro = 0.18;
+		double pesoArgentino = 44.65;
+		double libraEsterlina = 0.16;
+		double iene = 26.95;
 		
 		double converteDolar = valorReal*dolar;
 		System.out.printf("Valor em dolar:%.2f" , converteDolar);

@@ -8,8 +8,7 @@ public class Exercicio01 {
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Digite um número: " );
-		
-		
+				
 		int num = sc.nextInt();
 		
 		if (num % 2 == 1) {

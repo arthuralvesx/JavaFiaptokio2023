@@ -8,17 +8,14 @@ public class Exercicio02 {
 		float numeroFloat = 10.6f;
 		double numeroDouble = 10.5;
 		
-		System.out.println(numeroInteiro);
-		System.out.println(numeroFloat);
-		System.out.println(numeroDouble);
+		System.out.printf("%d %.2f %.2f", numeroInteiro, numeroFloat, numeroDouble);
 		
-		String str = Integer.toString(numeroInteiro);
-		String str1 = Float.toString(numeroFloat);
-		String str2 = Double.toString(numeroDouble);
+		String numeroIntStr = Integer.toString(numeroInteiro);
+		String numeroFloatStr = Float.toString(numeroFloat);
+		String numeroDoubleStr = Double.toString(numeroDouble);
 		
-		System.out.println(str);
-		System.out.println(str1);
-		System.out.println(str2);
+		System.out.printf("%s %s %s", numeroIntStr, numeroFloatStr, numeroDoubleStr );
+		
 			
 	}
 

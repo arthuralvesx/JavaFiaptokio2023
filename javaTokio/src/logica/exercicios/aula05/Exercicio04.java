@@ -13,6 +13,7 @@ public class Exercicio04 {
 		
 		System.out.println("Digite o valor B");
 		Double B = entrada.nextDouble();
+		 
 		
 		System.out.println("Sua final é: " +(A + B)/2);
 		
