@@ -40,19 +40,20 @@ public class Exercicio12Desafio {
 			System.out.println("não forma retangulo");
 		}else {
 			
-			if((ladoA * ladoA) == (ladoB * ladoB) + (lado * ladoC)){
+			if((ladoA * ladoA) == (ladoB * ladoB) + (ladoC * ladoC)){
 				System.out.println("triangulo retangulo");	
-			} else if ((ladoA * ladoA) > (ladoB * ladoB) + (lado * ladoC)) {
+			} else if ((ladoA * ladoA) > (ladoB * ladoB) + (ladoC * ladoC)) {
 				System.out.println("triangulo obtusangulo");
 			} else {
 				System.out.println("triangulo acutangulo");
 			}
-			
-			if 
-			
+			if (ladoA == ladoB && ladoB == ladoC) {
+				System.out.println("triangulo equilatero");
+			}
+			if ((ladoA == ladoB && ladoC != ladoA) || (ladoB == ladoC && ladoA != ladoB)) {
+				System.out.println("triangulo isosceles");
+				
+			}
 		}
-
 	}
-	
-
 }
