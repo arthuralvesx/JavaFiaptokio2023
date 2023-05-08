@@ -14,7 +14,7 @@ public class Exercicio12Desafio {
 		
 		System.out.printf("LadoA: %d \nLadoB: %d \nLadoC: %d \n\n", ladoA, ladoB, ladoC);
 		
-		int X = 0;
+		int X = 2;
 		
 		if(ladoA < ladoB) {
 			X = ladoA;
@@ -54,6 +54,7 @@ public class Exercicio12Desafio {
 				System.out.println("triangulo isosceles");
 				
 			}
+			sc.close();
 		}
 	}
 }

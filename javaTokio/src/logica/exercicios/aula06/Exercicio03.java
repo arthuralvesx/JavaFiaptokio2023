@@ -31,7 +31,7 @@ public class Exercicio03 {
 		}else {
 			System.out.println("Reprovado");
 		}
-		
+	sc.close();	
 	}
 
 }
