@@ -11,8 +11,8 @@ public class SegundoPrograma {
 		System.out.println("Digite seu nome: ");
 		String nome = entrada.nextLine();
 		
-		System.out.println("Digite sua Idade");
-		System.out.println("Sua Idade é: " + entrada.nextLine());
+		System.out.println("Digite sua Idade:");
+		System.out.println("Sua Idade é " + entrada.nextLine());
 		
 		System.out.println("Bem-vindo, " + nome);
 		
